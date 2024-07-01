@@ -2,39 +2,94 @@
   "products": [
     {
       "id": "2",
-      "image": "https://images.unsplash.com/photo-1529653762956-b0a27278529c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "productName": "Laptop ABC",
-      "price": 1299.99,
+      "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "productName": "Laptop 1",
+      "price": 2236,
       "rating": 4.7,
-      "discount": "15%",
-      "availability": "Out of Stock"
+      "discount": "63%",
+      "availability": "yes"
     },
     {
       "id": "3",
-      "image": "https://images.unsplash.com/photo-1529653762956-b0a27278529c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "productName": "Smartwatch DEF",
-      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?q=80&w=1905&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "productName": "Laptop 13",
+      "price": 1244,
       "rating": 4.3,
-      "discount": "5%",
-      "availability": "In Stock"
+      "discount": "45%",
+      "availability": "out-of-stock"
     },
     {
       "id": "4",
-      "image": "https://images.unsplash.com/photo-1529653762956-b0a27278529c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "productName": "Tablet GHI",
-      "price": 499.99,
-      "rating": 4.4,
-      "discount": "20%",
-      "availability": "In Stock"
+      "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "productName": "Laptop 3",
+      "price": 9102,
+      "rating": 4.5,
+      "discount": "98%",
+      "availability": "out-of-stock"
     },
     {
       "id": "5",
-      "image": "https://images.unsplash.com/photo-1529653762956-b0a27278529c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "productName": "Wireless Earbuds JKL",
-      "price": 149.99,
-      "rating": 4.6,
-      "discount": "25%",
-      "availability": "In Stock"
+      "image": "https://images.unsplash.com/photo-1592919933511-ea9d487c85e4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "productName": "laptop 11",
+      "price": 2652,
+      "rating": 4.12,
+      "discount": "70%",
+      "availability": "yes"
+    },
+    {
+      "id": "6",
+      "image": "https://images.unsplash.com/photo-1481487196290-c152efe083f5?q=80&w=1924&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "productName": "laptop 4",
+      "price": 1258,
+      "rating": 3.8,
+      "discount": "33%",
+      "availability": "out-of-stock"
+    },
+    {
+      "id": "7",
+      "image": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "productName": "laptop 13",
+      "price": 8686,
+      "rating": 3.22,
+      "discount": "24%",
+      "availability": "out-of-stock"
+    },
+    {
+      "id": "8",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "productName": "laptop 14",
+      "price": 9254,
+      "rating": 3,
+      "discount": "56%",
+      "availability": "yes"
+    },
+    {
+      "id": "9",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "productName": "laptop 1",
+      "price": 1059,
+      "rating": 2.77,
+      "discount": "21%",
+      "availability": "yes"
+    },
+    {
+      "id": "10",
+      "image": "https://images.unsplash.com/photo-1426024120108-99cc76989c71?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "productName": "laptop 10",
+      "price": 7145,
+      "rating": 2.74,
+      "discount": "15%",
+      "availability": "yes"
+    },
+    {
+      "id": "11",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "productName": "laptop 10",
+      "price": 4145,
+      "rating": 2.64,
+      "discount": "37%",
+      "availability": "out-of-stock"
     }
+
   ]
 }

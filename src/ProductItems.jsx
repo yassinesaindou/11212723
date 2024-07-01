@@ -61,7 +61,7 @@ function Item({ product }) {
         <p> ${price}</p>
         <p>{discount} Off</p>
       </StyledRow>
-      {availability === "In Stock" ? (
+      {availability === "yes" ? (
         <a href={`/products/${id}`}>
           <Button> Buy Now</Button>
         </a>

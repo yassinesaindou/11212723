@@ -25,7 +25,7 @@ function App() {
     <StyledApp>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/products" element={<Layout />}>
             <Route
               path="/products"
               index
