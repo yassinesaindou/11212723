@@ -36,11 +36,11 @@ export default function ProductPage() {
         <img src={image} alt="" width={1140} />
         <StyledRow>
 
-            <h3>{price} /  <span>{discount} Off</span></h3>
+            <h3>${price} /  <span>{discount} Off</span></h3>
             <p><HiStar />{ rating}</p>
         </StyledRow>
         <div>
-            <p>Description</p>
+            <h3>Description</h3>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati magnam, quos quia illo, incidunt eos laborum error, velit veniam quibusdam quae laboriosam molestiae vero aliquid consectetur sunt alias ullam possimus quidem. Repudiandae, quaerat beatae temporibus consequuntur rem adipisci deserunt accusamus omnis, dolorem repellat qui! Dolorem, harum? Voluptas voluptatum illum ex culpa corporis expedita perspiciatis rerum qui placeat velit, repellendus, ipsum distinctio ipsam eveniet mollitia itaque voluptates atque in, fuga repellat? Debitis quibusdam aspernatur adipisci nesciunt sed id, quod fugiat. Porro sed fuga, similique fugit corrupti laborum. Odit, perferendis placeat suscipit error consectetur labore sunt nisi aut dolore quas animi possimus.</div>
         
    </Styledpage>
