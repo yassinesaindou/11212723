@@ -1,13 +1,8 @@
-{"products":[
-    {"id":1,
-      "productName": "Smartphone XYZ",
-      "price": 699.99,
-      "rating": 4.5,
-      "discount": "10%",
-      "availability": "In Stock"
-    },
+{
+  "products": [
     {
-      "id":2,
+      "id": "2",
+      "image": "https://images.unsplash.com/photo-1529653762956-b0a27278529c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "productName": "Laptop ABC",
       "price": 1299.99,
       "rating": 4.7,
@@ -15,7 +10,8 @@
       "availability": "Out of Stock"
     },
     {
-      "id":3,
+      "id": "3",
+      "image": "https://images.unsplash.com/photo-1529653762956-b0a27278529c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "productName": "Smartwatch DEF",
       "price": 199.99,
       "rating": 4.3,
@@ -23,7 +19,8 @@
       "availability": "In Stock"
     },
     {
-      "id":4,
+      "id": "4",
+      "image": "https://images.unsplash.com/photo-1529653762956-b0a27278529c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "productName": "Tablet GHI",
       "price": 499.99,
       "rating": 4.4,
@@ -31,7 +28,8 @@
       "availability": "In Stock"
     },
     {
-      "id":5,
+      "id": "5",
+      "image": "https://images.unsplash.com/photo-1529653762956-b0a27278529c?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "productName": "Wireless Earbuds JKL",
       "price": 149.99,
       "rating": 4.6,
@@ -39,4 +37,4 @@
       "availability": "In Stock"
     }
   ]
-  }
+}

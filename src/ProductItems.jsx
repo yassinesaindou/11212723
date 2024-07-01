@@ -1,44 +1,73 @@
 import React from "react";
 import { HiMiniStar } from "react-icons/hi2";
 import styled from "styled-components";
+import Button from "./Button";
+
 const StyledRow = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2rem;
   align-items: center;
 `;
 const StyledCard = styled.div`
-  min-width: 300px;
-  padding: 1rem 2rem;
+  width: 300px !important;
+  /* max-width: 300px; */
   font-size: 1.2rem;
+  padding: 1rem 2rem;
   border: 1px solid lightgrey;
-`; 
- 
-const StyledProducts = styled.div`
-margin : 1rem 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-`
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(131, 128, 128, 0.1);
+`;
 
-export default function ProductItems({products}) {
-    return <StyledProducts>
-       {products.map(product => <Item product={product} key={product.id}/>)}
+const StyledProducts = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+`;
+const H2 = styled.h2`
+  color: blue;
+`;
+const Img = styled.img`
+  width: 100%;
+`;
+
+export default function ProductItems({ products }) {
+  return (
+    <StyledProducts>
+      {products.map((product) => (
+        <Item product={product} key={product.id} />
+      ))}
     </StyledProducts>
+  );
 }
 function Item({ product }) {
-    const { productName, price, rating, discount, availability } = product;
+  const { productName, image, price, rating, discount, availability, id } =
+    product;
   return (
     <StyledCard>
+      <Img src={image} alt="" />
       <StyledRow>
-              <h2>{ productName}</h2>
-              <p> <span> <HiMiniStar /> </span> {rating}</p>
-          </StyledRow>
-          <StyledRow>
-              <p> ${ price}</p>
-              <p>{ discount} Off</p>
-          </StyledRow>
-
+        <H2>{productName}</H2>
+        <p>
+          {" "}
+          <span>
+            {" "}
+            <HiMiniStar />{" "}
+          </span>{" "}
+          {rating}
+        </p>
+      </StyledRow>
+      <StyledRow>
+        <p> ${price}</p>
+        <p>{discount} Off</p>
+      </StyledRow>
+      {availability === "In Stock" ? (
+        <a href={`/products/${id}`}>
+          <Button> Buy Now</Button>
+        </a>
+      ) : (
+        <span>Out of Stock</span>
+      )}
     </StyledCard>
   );
 }
