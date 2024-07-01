@@ -1,0 +1,42 @@
+{"products":[
+    {"id":1,
+      "productName": "Smartphone XYZ",
+      "price": 699.99,
+      "rating": 4.5,
+      "discount": "10%",
+      "availability": "In Stock"
+    },
+    {
+      "id":2,
+      "productName": "Laptop ABC",
+      "price": 1299.99,
+      "rating": 4.7,
+      "discount": "15%",
+      "availability": "Out of Stock"
+    },
+    {
+      "id":3,
+      "productName": "Smartwatch DEF",
+      "price": 199.99,
+      "rating": 4.3,
+      "discount": "5%",
+      "availability": "In Stock"
+    },
+    {
+      "id":4,
+      "productName": "Tablet GHI",
+      "price": 499.99,
+      "rating": 4.4,
+      "discount": "20%",
+      "availability": "In Stock"
+    },
+    {
+      "id":5,
+      "productName": "Wireless Earbuds JKL",
+      "price": 149.99,
+      "rating": 4.6,
+      "discount": "25%",
+      "availability": "In Stock"
+    }
+  ]
+  }

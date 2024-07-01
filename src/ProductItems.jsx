@@ -21,26 +21,22 @@ margin : 1rem 2rem;
     gap: 1rem;
 `
 
-export default function ProductItems() {
+export default function ProductItems({products}) {
     return <StyledProducts>
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
+       {products.map(product => <Item product={product} key={product.id}/>)}
     </StyledProducts>
 }
-function Item() {
+function Item({ product }) {
+    const { productName, price, rating, discount, availability } = product;
   return (
     <StyledCard>
       <StyledRow>
-        <h2>Laptop 1</h2>
-        <p> <span> <HiMiniStar /> </span> 3.4</p>
+              <h2>{ productName}</h2>
+              <p> <span> <HiMiniStar /> </span> {rating}</p>
           </StyledRow>
           <StyledRow>
-            <p> 999.99$</p>
-            <p>50% Off</p>
+              <p> ${ price}</p>
+              <p>{ discount} Off</p>
           </StyledRow>
 
     </StyledCard>
